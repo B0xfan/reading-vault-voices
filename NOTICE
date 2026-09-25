@@ -1,0 +1,15 @@
+Reading Vault voices: files downloaded by the Reading Vault Obsidian plugin
+
+lexicon/us.json.gz, lexicon/gb.json.gz
+  Pronunciation lists from misaki (https://github.com/hexgrad/misaki),
+  commit fba1236595f2d2bf21d414ba6e57d25256afada3, files
+  misaki/data/{us,gb}_{gold,silver}.json. Copyright hexgrad.
+  Licensed under the Apache License, Version 2.0 (see LICENSE).
+  Changes: the gold and silver lists of each accent are combined into one
+  file ({"g": gold, "s": silver}), re-serialised without whitespace and
+  gzip-compressed (scripts/build-lexicon.py).
+
+samples/ (when present)
+  Short spoken samples made with the Kokoro-82M model and its voices
+  (https://huggingface.co/hexgrad/Kokoro-82M), Copyright hexgrad,
+  Licensed under the Apache License, Version 2.0.
