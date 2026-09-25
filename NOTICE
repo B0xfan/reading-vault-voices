@@ -9,8 +9,10 @@ lexicon/us.json.gz, lexicon/gb.json.gz
   file ({"g": gold, "s": silver}), re-serialised without whitespace and
   gzip-compressed (scripts/build-lexicon.py).
 
-samples/ (when present)
-  Short spoken samples made with the Kokoro-82M model and its voices
+samples/*.mp3
+  One short spoken sample per English voice ("Hi, I'm <name>. This is how I
+  sound reading your books aloud."), made with the Kokoro-82M model (full
+  precision) and its voices
   (https://huggingface.co/hexgrad/Kokoro-82M), Copyright hexgrad,
   Licensed under the Apache License, Version 2.0.
 
