@@ -13,3 +13,9 @@ samples/ (when present)
   Short spoken samples made with the Kokoro-82M model and its voices
   (https://huggingface.co/hexgrad/Kokoro-82M), Copyright hexgrad,
   Licensed under the Apache License, Version 2.0.
+
+lexicon/phonemize-exceptions.json.gz
+  The English exception list (dist/en/exceptions.json) of phonemize 2.0.1
+  (https://github.com/hans00/phonemize), Copyright hans00.
+  Licensed under the MIT License (see LICENSE-phonemize-MIT.txt).
+  Changes: re-serialised without whitespace and gzip-compressed.
